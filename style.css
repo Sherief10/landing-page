@@ -43,10 +43,19 @@ section{
     background-color: #1f2937;
     width: 100%;
     min-height: 100vh;
-    background: url(images/Sultan\ Tryndamere.jpg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: url(images/Niightbringer\ Tryndamere.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
+}
+
+.main img{
+    width: 400px;
+    height: 300px;
+    border-radius: 15px;
 }
 
 .main h2{
@@ -86,4 +95,59 @@ section{
 .main a:hover{
     background-color: blue;
     transform: scale(1.1);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    font-weight: 800;
+    font-size: 2.2em;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+    text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card img{
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 24px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+}
+
+.card h3{
+    font-weight: 300;
+}
+
+.quote{
+    background-color: #e5e7eb;
+    text-align: center;
+}
+
+.quote p{
+    font-size: 36px;
+    color: #3882f6;
 }
