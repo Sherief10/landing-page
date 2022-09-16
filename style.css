@@ -142,12 +142,74 @@ section{
     font-weight: 300;
 }
 
-.quote{
+.lore{
     background-color: #e5e7eb;
     text-align: center;
 }
 
-.quote p{
-    font-size: 36px;
-    color: #3882f6;
+.lore p{
+    margin: 0 250px;
+}
+
+.lore h3{
+    margin: 24px;
+    margin-right: 250px;
+    letter-spacing: 1px;
+    text-align: right;
+}
+
+.contact{
+    background-color: #f9faf8;
+}
+
+.contact .block{
+    background-color: #3882f6;
+    padding: 48px 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact h3{
+    margin-bottom: 16px;
+    color: #e5e7eb;
+}
+
+.contact p{
+    color: #e5e7eb;
+    margin-bottom: 16px;
+}
+
+.contact .coach{
+    color: #fff;
+    background-color: #3882f6;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    transition: 0.7s ease;
+    border-color: #fff;
+    border-style: solid;
+}
+
+.contact .coach:hover{
+    background-color: blue;
+    transform: scale(1.1);
+}
+
+.footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 24px;
+    color: #f9faf8;
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
 }
